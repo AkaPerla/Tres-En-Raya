@@ -1,0 +1,34 @@
+.tablero{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap:30px;
+}
+
+.tablero > div{
+    background-color: white;
+    width: 220px;
+    height: 220px;
+}
+
+.tablero > div > img{
+    padding: 10px;
+    border-radius: 70px;
+    box-shadow:14px 14px 28px #8e7b7b, -14px -14px 28px #f6d5d5; 
+}
+
+#banner{
+    position: absolute;
+    opacity: 70%;
+    background-color:#E3A1CE;
+    width: 100%;
+    height: 400px;
+    margin-top: 250px;
+}
+
+#titulo{
+    color: white;
+    text-align: center;
+    line-height: 400px;
+    font-size: 60px;
+}
